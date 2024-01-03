@@ -1,0 +1,43 @@
+<!-- Piano App Title and Description -->
+<div class="title">
+  <h1>Musical Experience with Piano</h1>
+  <p>Explore the world of music:</p>
+  <p>
+    Play notes by pressing the keys (Q to P for the First Octave, A to L for the
+    Second Octave, Z to M for the Third Octave).
+  </p>
+</div>
+<div class="piano">
+  <!-- Octave 1 (Q to P) -->
+  <div class="white-key" (click)="playNote('A0')"></div>
+  <div class="black-key" (click)="playNote('Bb0')"></div>
+  <div class="white-key" (click)="playNote('B0')"></div>
+  <div class="white-key" (click)="playNote('C1')"></div>
+  <div class="black-key" (click)="playNote('Db1')"></div>
+  <div class="white-key" (click)="playNote('D1')"></div>
+  <div class="black-key" (click)="playNote('Eb1')"></div>
+  <div class="white-key" (click)="playNote('E1')"></div>
+  <div class="white-key" (click)="playNote('F1')"></div>
+  <div class="black-key" (click)="playNote('Gb1')"></div>
+
+  <!-- Octave 2 (A to L) -->
+  <div class="white-key" (click)="playNote('G1')"></div>
+  <div class="black-key" (click)="playNote('Ab1')"></div>
+  <div class="white-key" (click)="playNote('A1')"></div>
+  <div class="black-key" (click)="playNote('Bb1')"></div>
+  <div class="white-key" (click)="playNote('B1')"></div>
+  <div class="white-key" (click)="playNote('C2')"></div>
+  <div class="black-key" (click)="playNote('Db2')"></div>
+  <div class="white-key" (click)="playNote('D2')"></div>
+  <div class="black-key" (click)="playNote('Eb2')"></div>
+
+  <!-- Octave 3 (Z to M) -->
+  <div class="white-key" (click)="playNote('E2')"></div>
+  <div class="white-key" (click)="playNote('F2')"></div>
+  <div class="black-key" (click)="playNote('Gb2')"></div>
+  <div class="white-key" (click)="playNote('G2')"></div>
+  <div class="black-key" (click)="playNote('Ab2')"></div>
+  <div class="white-key" (click)="playNote('A2')"></div>
+  <div class="black-key" (click)="playNote('Bb2')"></div>
+  <div class="white-key" (click)="playNote('B2')"></div>
+</div>
